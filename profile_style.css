@@ -1,0 +1,123 @@
+#top_bar{
+  background-color: #006080;
+  width: 100%;
+  margin: 0;
+}
+
+body{
+  background-image: url("./images/cityscape.png");
+  background-repeat: no-repeat;
+}
+
+.headline{
+  font-family:'Press Start 2P', cursive;
+  margin: 0;
+  font-size: 75px;
+  text-align: center;
+  color: white;
+}
+
+.subtitle{
+  font-family:'Press Start 2P', cursive;
+  margin: 10px;
+  font-size: 20px;
+  text-align: center;
+  color:white;
+}
+
+#headshot{
+  opacity: 0.9;
+  margin-top: 10;
+  border:4px solid white;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-family:'Press Start 2P', cursive;
+}
+
+a:hover{
+  color: #000040;
+  text-decoration: underline;
+}
+
+.fa-ul li{
+  margin-left: 140px;
+  margin-right: 0px;
+  padding-bottom: 5px;
+  width: 100px;
+}
+
+nav li{
+  display: inline;
+}
+
+nav li + li:before{
+    content: " | ";
+    padding: 0 10px;
+    color: white;
+}
+
+nav{
+  text-align: center;
+}
+
+ul{
+  margin: 0;
+}
+
+
+body ul, li{
+  color: white;
+}
+
+ul.fa-ul{
+  margin-right: 0;
+  height: 0px;
+}
+
+
+.text-box {
+  background-color: rgba(56, 56, 56, 0.7);
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 5px solid #006080;
+  position: relative;
+}
+
+.skills {
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Press Start 2P', cursive;
+  opacity: 100;
+  color: white;
+}
+
+#skill_set, p{
+  color: white;
+  font-family: Quantico;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+#skill_set, p, ul{
+  color: white;
+  font-family: Quantico;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+footer h4 {
+  text-align: center;
+  color: white;
+  font-family: Quantico;
+  margin-top: 75px;
+}
+
+@media screen and (max-width:950px){
+  .headline {
+    margin-top: 200px;
+  }
+}
