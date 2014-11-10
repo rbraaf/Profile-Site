@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  File.new('./profile.html')
+  File.new('./public/profile.html').readlines
 end
