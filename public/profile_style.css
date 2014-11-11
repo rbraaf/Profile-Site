@@ -26,9 +26,11 @@ body{
 }
 
 #headshot{
-  opacity: 0.9;
   margin-top: 10;
-  border: 5px solid white;
+  border-width: 3px;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: white;
 }
 
 a{
