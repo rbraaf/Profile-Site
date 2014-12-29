@@ -2,12 +2,13 @@
   background-color: #1F3A93;
   width: 100%;
   margin: 0;
-  height: 158px;
-  border-bottom: 4px solid #222;
+  border-bottom: 8px solid #006080;
+  background-image: url('./images/cityscape.png');
+  background-size: contain;
 }
 
 body{
-  background-color: #ABB7B7;
+  background-color: #BDC3C7;
 }
 
 .headline{
@@ -19,7 +20,7 @@ body{
   padding-top: 25px;
 }
 
-.subtitle{
+.subtitle {
   font-family:'Press Start 2P', cursive;
   margin: 10px;
   font-size: 20px;
@@ -27,26 +28,23 @@ body{
   color:white;
 }
 
-#headshot{
-  margin-top: 10;
-  border-width: 3px;
-  border-radius: 100%;
-  border-style: solid;
-  border-color: black;
-}
-
-a{
+a {
   text-decoration: none;
   color: white;
   font-family:'Press Start 2P', cursive;
 }
 
-a:hover{
-  color: #59677F;
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  color: #A6DBFF;
   text-decoration: underline;
 }
 
-.fa-ul li{
+.fa-ul li {
   margin-left: 0px;
   margin-right: 0px;
   padding-bottom: 5px;
@@ -82,36 +80,12 @@ ul.fa-ul{
   height: 0px;
 }
 
-
-.text-box {
-  background-color: rgba(56, 56, 56, 0.7);
-  width: 50%;
-  margin: 0 auto;
-  margin-top: 50px;
-  border: 5px solid #006080;
-  position: relative;
-}
-
-.skills {
-  text-align: center;
-  text-decoration: underline;
-  font-family: 'Press Start 2P', cursive;
-  opacity: 100;
-  color: white;
-}
-
-#skill_set, p{
-  color: white;
+.content {
+  color: #6C7A89;
   font-family: Quantico;
-  font-size: 15px;
-  padding-left: 20px;
-}
-
-#skill_set, p, ul{
-  color: white;
-  font-family: Quantico;
-  font-size: 15px;
-  padding-left: 20px;
+  font-size: 1.5em;
+  padding: 20px;
+  text-align: left;
 }
 
 footer h4 {
@@ -121,26 +95,17 @@ footer h4 {
   margin-top: 75px;
 }
 
-@media screen and (max-width:950px){
-  .headline {
-    margin-top: 200px;
-  }
-}
-
-.nav-links {
-  margin-top: 5px;
-  padding: 0px;
-}
-
 .navbar {
   min-height: 0px;
   width: 461px;
   border-radius: 0px;
   margin: 0px auto;
+  background-color: #006080;
 }
 
 .navbar-inverse {
-  border-color: #222;
+  border-color: #006080;
+  border-bottom: 3px solid #3498db;
 }
 
 .social-buttons {
@@ -148,4 +113,98 @@ footer h4 {
   height: 46px;
   margin: 0px auto;
   margin-top: 25px;
+}
+
+
+.nav-links {
+  padding: 0px;
+}
+
+
+
+
+/***************************
+******WELCOME CONTAINER*****
+****************************/
+
+
+.section-container {
+  background-color: #fff;
+  width: 70%;
+  text-align: center;
+  box-shadow: 3px 3px 3px #888888;
+  margin: 0px auto;
+  font-family: 'Press Start 2P', cursive;
+  margin-top: 40px;
+}
+
+.container-headlines {
+  color: #6C7A89;
+  padding-top: 5px;
+  font-size: 2.1em;
+  margin-bottom: 20px;
+}
+
+
+
+
+/***************************
+***********IMAGES***********
+****************************/
+
+
+#headshot {
+  border-radius: 50%;
+  width: 200px;
+  margin-top: 40px;
+}
+
+.project-img {
+  width: 500px;
+  height: 311px;
+  padding: 20px;
+  margin-top: 50px;
+  display: inline;
+}
+
+
+.image-container {
+  padding: 10px;
+}
+
+
+/***************************
+*********MEDIA QUERY********
+****************************/
+
+
+/* Mobile Devices */
+@media screen and (max-width:480px){
+  .headline {
+  padding-top: 20px;
+  font-size: 33px;
+  }
+  .subtitle {
+    font-size: 10px;
+  }
+  #top_bar {
+    height: 89px;
+  }
+  .navbar {
+    width: 321px;
+  }
+  .section-container {
+    min-width: 100%;
+    margin-top: 10px;
+  }
+  .container-headlines {
+    font-size: 2em;
+  }
+  .content {
+    font-size: 1em;
+  }
+  .project-img {
+  width: 300px;
+  height: 100%;
+  }
 }
