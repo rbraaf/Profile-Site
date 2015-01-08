@@ -130,12 +130,13 @@ footer h4 {
 
 .section-container {
   background-color: #fff;
-  width: 70%;
+  width: 90%;
   text-align: center;
   box-shadow: 3px 3px 3px #888888;
   margin: 0px auto;
   font-family: 'Press Start 2P', cursive;
   margin-top: 40px;
+  padding: 20px;
 }
 
 .container-headlines {
