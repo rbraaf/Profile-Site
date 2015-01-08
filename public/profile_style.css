@@ -159,18 +159,25 @@ footer h4 {
   margin-top: 40px;
 }
 
-.project-img {
-  width: 500px;
-  height: 311px;
-  padding: 20px;
-  margin-top: 50px;
-  display: inline;
-}
-
-
 .image-container {
   padding: 10px;
 }
+
+.ch_wrapper {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+/***************************
+*******CONTENT HOVER********
+****************************/
+
+.contenthover { padding:20px 20px 10px 20px; }
+.contenthover, .contenthover h3, contenthover a { color:#fff; }
+.contenthover h3, .contenthover p { margin:0 0 10px 0; line-height:1.4em; padding:0; }
+.contenthover a.mybutton { display:inline-block; float:left; padding:5px 10px; background:#3c9632; color:#fff; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.contenthover a.mybutton:hover { background:#34742d }
+
 
 
 /***************************

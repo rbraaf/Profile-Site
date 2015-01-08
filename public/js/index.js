@@ -1,11 +1,8 @@
 $( document ).ready(function() {
-  $('a[href^="#"]').on('click', function(event) {
-    var target = $(this.href);
-    if( target.length ) {
-        event.preventDefault();
-        $('html, body').animate({
-            scrollTop: target.offset().top
-        }, 1000);
-    }
+  $('.project-img').contenthover({
+    effect:'slide',
+    slide_speed:300,
+    overlay_background:'#000',
+    overlay_opacity:0.8
   });
 });
