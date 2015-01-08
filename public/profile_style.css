@@ -28,13 +28,6 @@ body{
   color:white;
 }
 
-a {
-  text-decoration: none;
-  color: #fff;
-  font-family:'Press Start 2P', cursive;
-}
-
-
 a:visited {
   color: inherit;
 }
@@ -44,21 +37,12 @@ a:hover {
   text-decoration: underline;
 }
 
-.fa-ul li {
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-bottom: 5px;
-  width: 100px;
-  display: block;
-}
-
 nav li{
   display: inline;
 }
 
 nav li + li:before{
     content: " | ";
-    padding: 0 10px;
     color: #fff;
 }
 
@@ -68,11 +52,6 @@ nav{
 
 ul{
   margin: 0;
-}
-
-
-body ul, li{
-  color: white;
 }
 
 ul.fa-ul{
@@ -108,20 +87,41 @@ footer h4 {
   border-bottom: 3px solid #3498db;
 }
 
-.social-buttons {
-  width: 164px;
-  height: 46px;
-  margin: 0px auto;
-  margin-top: 25px;
-}
 
 
 .nav-links {
   padding: 0px;
+  color: #fff;
+  text-decoration: none;
+  font-family:'Press Start 2P', cursive;
 }
 
+.social-buttons {
+  margin: 0px auto;
+  margin-top: 25px;
+  color: #6C7A89;
+}
 
+.fa-envelope {
+  color: #6C7A89;
+}
 
+.fa-envelope:hover {
+  color: #A6DBFF;
+}
+
+.body-link {
+  color: #006080;
+  text-decoration: underline;
+}
+
+.body-link:visited {
+  color: #006080;
+}
+
+.contact-msg {
+  text-align: center;
+}
 
 /***************************
 ******WELCOME CONTAINER*****
@@ -156,6 +156,7 @@ footer h4 {
 
 #headshot {
   border-radius: 50%;
+  border: 1px solid #d3d3d3;
   width: 200px;
   margin-top: 40px;
 }
