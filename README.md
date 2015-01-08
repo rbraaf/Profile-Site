@@ -3,5 +3,3 @@ The official home page of Ray Braaf
     github.com/rbraaf
 
 Version: 1.0 - Jan 2015
-
-** add border radius to image and overlay
