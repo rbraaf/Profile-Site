@@ -30,7 +30,7 @@ body{
 
 a {
   text-decoration: none;
-  color: white;
+  color: #fff;
   font-family:'Press Start 2P', cursive;
 }
 
@@ -49,7 +49,7 @@ a:hover {
   margin-right: 0px;
   padding-bottom: 5px;
   width: 100px;
-  display: inline;
+  display: block;
 }
 
 nav li{
@@ -59,7 +59,7 @@ nav li{
 nav li + li:before{
     content: " | ";
     padding: 0 10px;
-    color: white;
+    color: #fff;
 }
 
 nav{
